@@ -47,10 +47,11 @@ C:\dev\whyne\api\obj\Debug\net5.0\api.csproj.CoreCompileInputs.cache
 C:\dev\whyne\api\obj\Debug\net5.0\api.MvcApplicationPartsAssemblyInfo.cs
 C:\dev\whyne\api\obj\Debug\net5.0\api.MvcApplicationPartsAssemblyInfo.cache
 C:\dev\whyne\api\obj\Debug\net5.0\staticwebassets\api.StaticWebAssets.Manifest.cache
-C:\dev\whyne\api\obj\Debug\net5.0\staticwebassets\api.StaticWebAssets.xml
 C:\dev\whyne\api\obj\Debug\net5.0\scopedcss\bundle\api.styles.css
 C:\dev\whyne\api\obj\Debug\net5.0\api.RazorTargetAssemblyInfo.cache
 C:\dev\whyne\api\obj\Debug\net5.0\api.dll
 C:\dev\whyne\api\obj\Debug\net5.0\ref\api.dll
 C:\dev\whyne\api\obj\Debug\net5.0\api.pdb
 C:\dev\whyne\api\obj\Debug\net5.0\api.genruntimeconfig.cache
+C:\Dev\whyne\api\bin\Debug\net5.0\package-lock.json
+C:\Dev\whyne\api\obj\Debug\net5.0\api.csproj.CopyComplete
