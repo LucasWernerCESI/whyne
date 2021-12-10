@@ -3,7 +3,7 @@ import { RootState } from '../../app/store';
 import { authenticate } from './accountAPI';
 
 export interface IAccount {
- id: number,
+ accountId: number,
  title: string,
  firstName: string,
  lastName: string, 
