@@ -14,7 +14,7 @@ using Microsoft.OpenApi.Models;
 using Whyne.BL;
 using Whyne.DAL;
 
-namespace Api
+namespace Whyne.API
 {
     public class Startup
     {
@@ -53,6 +53,8 @@ namespace Api
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseAuthentication();
 
             app.UseCors( x => x.SetIsOriginAllowed( origins => true ).AllowAnyMethod().AllowAnyHeader().AllowCredentials() );
 

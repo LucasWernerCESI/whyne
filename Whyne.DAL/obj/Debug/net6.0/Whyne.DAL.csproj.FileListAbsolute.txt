@@ -3,7 +3,6 @@ C:\Dev\whyne\Whyne.DAL\bin\Debug\net6.0\Whyne.DAL.runtimeconfig.json
 C:\Dev\whyne\Whyne.DAL\bin\Debug\net6.0\Whyne.DAL.dll
 C:\Dev\whyne\Whyne.DAL\bin\Debug\net6.0\ref\Whyne.DAL.dll
 C:\Dev\whyne\Whyne.DAL\bin\Debug\net6.0\Whyne.DAL.pdb
-C:\Dev\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.csproj.AssemblyReference.cache
 C:\Dev\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Dev\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.AssemblyInfoInputs.cache
 C:\Dev\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.AssemblyInfo.cs
