@@ -5,8 +5,9 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Whyne.Models;
 
-namespace App
+namespace Whyne.App
 { 
     class ApiClient
     {
@@ -25,7 +26,8 @@ namespace App
             if(response.IsSuccessStatusCode)
             {
                 string content = await response.Content.ReadAsStringAsync();
-                return JsonSerializer.Deserialize<T>(content);
+                T mappedContent = JsonSerializer.Deserialize<T>(content);
+                return mappedContent;
             };
             return default(T);
         }

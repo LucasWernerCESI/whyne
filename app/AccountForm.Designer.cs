@@ -1,5 +1,5 @@
 ﻿
-namespace Whyne
+namespace Whyne.App
 {
     partial class AccountForm
     {

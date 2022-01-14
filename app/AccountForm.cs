@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Whyne.Controls.Account;
 
-namespace Whyne
+namespace Whyne.App
 {
     public partial class AccountForm : Form
     {

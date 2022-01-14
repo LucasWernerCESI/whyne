@@ -1,5 +1,5 @@
 ﻿
-namespace App
+namespace Whyne.App
 {
     partial class Form1
     {

@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using App.Model;
 using Whyne;
+using Whyne.Models;
 
-namespace App
+namespace Whyne.App
 {
     public partial class Form1 : Form
     {
