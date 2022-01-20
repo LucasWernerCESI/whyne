@@ -1,0 +1,5 @@
+C:\dev\whyne\app\Whyne\bin\publish\Whyne.exe
+C:\dev\whyne\app\Whyne\bin\publish\Whyne.dll
+C:\dev\whyne\app\Whyne\bin\publish\Whyne.deps.json
+C:\dev\whyne\app\Whyne\bin\publish\Whyne.runtimeconfig.json
+C:\dev\whyne\app\Whyne\bin\publish\Whyne.pdb

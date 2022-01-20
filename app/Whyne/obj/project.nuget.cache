@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "u7oSCWIr1aJRj5dMFRDcNYECDiDScXRDuE/+jAt/1kw0StGY6huHolN58dlFV153f7+5v2chiaftly8EI96LYg==",
+  "success": true,
+  "projectFilePath": "C:\\whyne\\app\\Whyne\\Whyne.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gab\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
+    "C:\\Users\\gab\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\gab\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\gab\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
