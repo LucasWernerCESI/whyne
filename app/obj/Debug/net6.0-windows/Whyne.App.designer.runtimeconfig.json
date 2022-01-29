@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\ombri\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ombri\\.nuget\\packages",
+      "C:\\Users\\gab\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gab\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

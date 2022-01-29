@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Whyne.BL;
 
 namespace Whyne.App
 {
     public partial class AddItemForm : Form
     {
+        private readonly ItemService _ItemS;
         public AddItemForm()
         {
             InitializeComponent();
@@ -38,6 +40,16 @@ namespace Whyne.App
         }
 
         private void Titlebox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddItemForm_Load(object sender, EventArgs e)
         {
 
         }

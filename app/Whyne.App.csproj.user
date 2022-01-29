@@ -22,5 +22,8 @@
     <Compile Update="SearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SearchFormV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -212,7 +212,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "MySqlConnector/2.0.0": {
+      "MySqlConnector/2.1.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/MySqlConnector.dll": {}
@@ -230,12 +230,12 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/6.0.0": {
+      "Pomelo.EntityFrameworkCore.MySql/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "[6.0.0, 7.0.0)",
+          "Microsoft.EntityFrameworkCore.Relational": "[6.0.1, 7.0.0)",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
-          "MySqlConnector": "2.0.0"
+          "MySqlConnector": "2.1.2"
         },
         "compile": {
           "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll": {}
@@ -284,6 +284,36 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Whyne.BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.0",
+          "Whyne.DAL": "1.0.0",
+          "Whyne.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Whyne.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Whyne.BL.dll": {}
+        }
+      },
+      "Whyne.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Whyne.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Whyne.DAL.dll": {}
         }
       },
       "Whyne.Models/1.0.0": {
@@ -641,10 +671,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MySqlConnector/2.0.0": {
-      "sha512": "EY0KXqQas+QvdZQU0NPkqBSfJitWAl8IUCg0v/Qn0P7f/KApJTFJFm8czYWoDPyewUjPHrAnE/cSYzzSFGc8Ng==",
+    "MySqlConnector/2.1.2": {
+      "sha512": "JVokQTUNN3WHAu9Vw8ieeq1dXTFokJiig5P0VJ4f439UxRrsPo6SaVWC8Zdm6mkPeQFhZ0/9afdWa02EY/1j/w==",
       "type": "package",
-      "path": "mysqlconnector/2.0.0",
+      "path": "mysqlconnector/2.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -666,7 +696,7 @@
         "lib/netstandard2.1/MySqlConnector.dll",
         "lib/netstandard2.1/MySqlConnector.xml",
         "logo.png",
-        "mysqlconnector.2.0.0.nupkg.sha512",
+        "mysqlconnector.2.1.2.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },
@@ -697,17 +727,17 @@
         "packageIcon.png"
       ]
     },
-    "Pomelo.EntityFrameworkCore.MySql/6.0.0": {
-      "sha512": "iWloXFjpN6BllZA9oPqZTW9mNtFV5Q6DFv0WwFyh1IuOJ71btS3ifTwpLmaFXSlXzuEU9o7Rul0dU0WiwkOq0Q==",
+    "Pomelo.EntityFrameworkCore.MySql/6.0.1": {
+      "sha512": "sFIo5e9RmQoCTEvH6EeSV8ptmX3dw/6XgyD8R93X/i7A9+XCeG9KTjSNjrszVjVOtCu/eyvYqqcv2uZ/BHhlYA==",
       "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/6.0.0",
+      "path": "pomelo.entityframeworkcore.mysql/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll",
         "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.xml",
-        "pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512",
+        "pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
@@ -784,6 +814,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Whyne.BL/1.0.0": {
+      "type": "project",
+      "path": "../Whyne.BL/Whyne.BL.csproj",
+      "msbuildProject": "../Whyne.BL/Whyne.BL.csproj"
+    },
+    "Whyne.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Whyne.DAL/Whyne.DAL.csproj",
+      "msbuildProject": "../Whyne.DAL/Whyne.DAL.csproj"
+    },
     "Whyne.Models/1.0.0": {
       "type": "project",
       "path": "../Whyne.Models/Whyne.Models.csproj",
@@ -794,28 +834,29 @@
     "net6.0-windows7.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.1",
-      "Pomelo.EntityFrameworkCore.MySql >= 6.0.0",
+      "Pomelo.EntityFrameworkCore.MySql >= 6.0.1",
+      "Whyne.BL >= 1.0.0",
       "Whyne.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ombri\\.nuget\\packages\\": {},
+    "C:\\Users\\gab\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\whyne\\app\\Whyne.App.csproj",
+      "projectUniqueName": "C:\\whyne\\app\\Whyne.App.csproj",
       "projectName": "Whyne.App",
-      "projectPath": "D:\\Visual Studio\\whyne\\app\\Whyne.App.csproj",
-      "packagesPath": "C:\\Users\\ombri\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\whyne\\app\\obj\\",
+      "projectPath": "C:\\whyne\\app\\Whyne.App.csproj",
+      "packagesPath": "C:\\Users\\gab\\.nuget\\packages\\",
+      "outputPath": "C:\\whyne\\app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ombri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gab\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -830,8 +871,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\Visual Studio\\whyne\\Whyne.Models\\Whyne.Models.csproj": {
-              "projectPath": "D:\\Visual Studio\\whyne\\Whyne.Models\\Whyne.Models.csproj"
+            "C:\\whyne\\Whyne.BL\\Whyne.BL.csproj": {
+              "projectPath": "C:\\whyne\\Whyne.BL\\Whyne.BL.csproj"
+            },
+            "C:\\whyne\\Whyne.Models\\Whyne.Models.csproj": {
+              "projectPath": "C:\\whyne\\Whyne.Models\\Whyne.Models.csproj"
             }
           }
         }
@@ -858,7 +902,7 @@
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.0.1, )"
           }
         },
         "imports": [

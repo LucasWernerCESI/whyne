@@ -10,7 +10,7 @@ namespace Whyne.DAL
         public DbSet<Provider> Provider { get; set; }
 
         // Configuration
-        private string _dbPath = @"Server=localhost;Port=3306;Database=Whyne;Uid=WhyneAdmin;Pwd=123456";
+        private string _dbPath = @"Server=localhost;Port=3306;Database=Whyne;Uid=WhyneAdmin;Pwd=1234";
         public MariaDbServerVersion DbServerVersion { get; private set; }
 
         public WhyneContext()
