@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.API", "api\Whyne.API.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.App", "app\Whyne.App.csproj", "{F1023F14-86E6-4559-8314-33C97BC99EDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whyne.DAL", "Whyne.DAL\Whyne.DAL.csproj", "{74F74F0E-00A6-4D1C-B220-B0210687E104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.DAL", "Whyne.DAL\Whyne.DAL.csproj", "{74F74F0E-00A6-4D1C-B220-B0210687E104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whyne.BL", "Whyne.BL\Whyne.BL.csproj", "{49BEE8BE-E9BB-42D8-A0EC-8F37C8AEE10A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.BL", "Whyne.BL\Whyne.BL.csproj", "{49BEE8BE-E9BB-42D8-A0EC-8F37C8AEE10A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whyne.Models", "Whyne.Models\Whyne.Models.csproj", "{73C28E8C-4FB2-418C-AA25-4CB2FA6663FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.Models", "Whyne.Models\Whyne.Models.csproj", "{73C28E8C-4FB2-418C-AA25-4CB2FA6663FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

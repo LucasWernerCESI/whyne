@@ -21,7 +21,7 @@ namespace Whyne.App
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            ApiClient client = new ApiClient("https://localhost:44373/api/");
+            ApiClient client = new ApiClient("https://localhost:3306/api/");
             List<Account> accounts = await client.Get<List<Account>>("accounts");
             dataGridView1.DataSource = accounts;
             AccountForm accountForm = new AccountForm();
