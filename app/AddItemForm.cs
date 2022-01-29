@@ -41,5 +41,10 @@ namespace Whyne.App
         {
 
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

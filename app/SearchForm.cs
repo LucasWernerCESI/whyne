@@ -15,27 +15,10 @@ namespace Whyne.App
         public SearchForm()
         {
             InitializeComponent();
-            Searchlist.Items.Clear();
-            foreach (string str in Searchlist.Items)
-            {
-                Searchlist.Items.Add(str);
-                Filterbox1.CharacterCasing = CharacterCasing.Lower;
-            }
         }
 
         private void Filterbox1_TextChanged(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(Filterbox1.Text) == false || Filterbox1.Text == "")
-            {
-                Searchlist.Items.Clear();
-                foreach (string str in Searchlist.Items)
-                {
-                    if (str.StartsWith(Filterbox1.Text))
-                    {
-                        Searchlist.Items.Add(str);
-                    }
-                }
-            }
         }
 
         private void Searchlist_SelectedIndexChanged(object sender, EventArgs e)
@@ -44,6 +27,16 @@ namespace Whyne.App
         }
 
         private void Searchbt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
