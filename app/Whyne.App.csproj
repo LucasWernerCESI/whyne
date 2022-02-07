@@ -26,4 +26,8 @@
     <ProjectReference Include="..\Whyne.Models\Whyne.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
 </Project>
