@@ -12,3 +12,17 @@ C:\Dev\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.dll
 C:\Dev\whyne\Whyne.DAL\obj\Debug\net6.0\ref\Whyne.DAL.dll
 C:\Dev\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.pdb
 C:\Dev\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.genruntimeconfig.cache
+C:\whyne\Whyne.DAL\bin\Debug\net6.0\Whyne.DAL.deps.json
+C:\whyne\Whyne.DAL\bin\Debug\net6.0\Whyne.DAL.runtimeconfig.json
+C:\whyne\Whyne.DAL\bin\Debug\net6.0\Whyne.DAL.dll
+C:\whyne\Whyne.DAL\bin\Debug\net6.0\ref\Whyne.DAL.dll
+C:\whyne\Whyne.DAL\bin\Debug\net6.0\Whyne.DAL.pdb
+C:\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.csproj.AssemblyReference.cache
+C:\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.AssemblyInfoInputs.cache
+C:\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.AssemblyInfo.cs
+C:\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.csproj.CoreCompileInputs.cache
+C:\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.dll
+C:\whyne\Whyne.DAL\obj\Debug\net6.0\ref\Whyne.DAL.dll
+C:\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.pdb
+C:\whyne\Whyne.DAL\obj\Debug\net6.0\Whyne.DAL.genruntimeconfig.cache

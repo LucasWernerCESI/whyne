@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "pyaMSCEWRZ4nvKCja2XnniyJFEBxfxA7VVvbHvFd6MQ=",
-  "Source": "api",
-  "BasePath": "_content/api",
+  "Hash": "scEoXyRfd560teRSHA8vueY3JM5CGcQwkIhy8MK0fHo=",
+  "Source": "Whyne.API",
+  "BasePath": "_content/Whyne.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
