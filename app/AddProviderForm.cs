@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Whyne.BL;
 
 namespace Whyne.App
 {
     public partial class AddProviderForm : Form
     {
+        private readonly ItemService _ItemS;
         public AddProviderForm()
         {
             InitializeComponent();

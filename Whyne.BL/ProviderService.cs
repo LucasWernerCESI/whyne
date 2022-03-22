@@ -2,6 +2,7 @@
 using Whyne.DAL;
 using Whyne.Models;
 
+
 namespace Whyne.BL
 {
     public class ProviderService
@@ -20,7 +21,10 @@ namespace Whyne.BL
                     Name = p.Name,
                     Location = p.Location,
                     Product = p.Product
-                }).ToListAsync();
+                })
+                .Distinct()
+                .ToListAsync();
         }
+
     }
 }

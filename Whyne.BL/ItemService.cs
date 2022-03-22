@@ -2,6 +2,7 @@
 using Whyne.DAL;
 using Whyne.Models;
 
+
 namespace Whyne.BL
 {
     public class ItemService
@@ -28,11 +29,49 @@ namespace Whyne.BL
                 }).ToListAsync();
         }
 
-        public async Task<List<Item>> GetEveryFamilly(string search)    // search = Item.[search]
+        public async Task<List<Item>> ProviderFilter(string search)
         {
             return await _context
                 .Items
-                .Select(f =>  new Item
+                .Select(s => new Item
+                {
+                    Icon = s.Icon,
+                    Title = s.Title,
+                    Description = s.Description,
+                    DegreeAlcoolo = s.DegreeAlcoolo,
+                    Familly = s.Familly,
+                    Quantity = s.Quantity,
+                    Provider = s.Provider,
+                    Price = s.Price
+                })
+                .Where(p => p.Provider == search)
+                .ToListAsync();
+        }
+
+        public async Task<List<Item>> FamillyFilter(string search)
+        {
+            return await _context
+                .Items
+                .Select(s => new Item
+                {
+                    Icon = s.Icon,
+                    Title = s.Title,
+                    Description = s.Description,
+                    DegreeAlcoolo = s.DegreeAlcoolo,
+                    Familly = s.Familly,
+                    Quantity = s.Quantity,
+                    Provider = s.Provider,
+                    Price = s.Price
+                })
+                .Where(f => f.Familly == search)
+                .ToListAsync();
+        }
+
+        public async Task<List<Item>> GetEveryFamilly()
+        {
+            return await _context
+                .Items
+                .Select(f => new Item
                 {
                     Familly = f.Familly
                 })
@@ -40,11 +79,11 @@ namespace Whyne.BL
                 .ToListAsync();
         }
 
-        public async Task<List<Item>> GetItemOrderDesc(string search)   // search = Item.[search]
+        public async Task<List<Item>> GetItemOrderDesc(string search)   // search = Item.[search] //is that working?
         {
             return await _context
                 .Items
-                .OrderByDescending(s => search)
+                .OrderByDescending(r => search)
                 .Select(s => new Item
                 {
                     Icon = s.Icon,
@@ -57,5 +96,12 @@ namespace Whyne.BL
                     Price = s.Price
                 }).ToListAsync();
         }
+
+        /*public async Task<List<Item>> AddItem(Nicon, Nititle, ) //EditItem() use AddItem()
+        {
+            var tempo = new Item { Icon = Nicon, Title = Ntitle, Description = Ndescription, DegreeAlcoolo = Ndegreealcoolo, Familly = Nfamilly, Quantity = Nquantity, Provider = Nprovider, Price = Nprice };
+            _context.Items.Add(tempo);
+        }*/
+
     }
 }

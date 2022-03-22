@@ -26,3 +26,17 @@ D:\Visual Studio\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.dll
 D:\Visual Studio\whyne\Whyne.Models\obj\Debug\net6.0\ref\Whyne.Models.dll
 D:\Visual Studio\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.pdb
 D:\Visual Studio\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.genruntimeconfig.cache
+C:\whyne\Whyne.Models\bin\Debug\net6.0\Whyne.Models.deps.json
+C:\whyne\Whyne.Models\bin\Debug\net6.0\Whyne.Models.runtimeconfig.json
+C:\whyne\Whyne.Models\bin\Debug\net6.0\Whyne.Models.dll
+C:\whyne\Whyne.Models\bin\Debug\net6.0\ref\Whyne.Models.dll
+C:\whyne\Whyne.Models\bin\Debug\net6.0\Whyne.Models.pdb
+C:\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.csproj.AssemblyReference.cache
+C:\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.AssemblyInfoInputs.cache
+C:\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.AssemblyInfo.cs
+C:\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.csproj.CoreCompileInputs.cache
+C:\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.dll
+C:\whyne\Whyne.Models\obj\Debug\net6.0\ref\Whyne.Models.dll
+C:\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.pdb
+C:\whyne\Whyne.Models\obj\Debug\net6.0\Whyne.Models.genruntimeconfig.cache
