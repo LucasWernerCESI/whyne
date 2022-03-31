@@ -1,7 +1,0 @@
-C:\Dev\whyne\api\obj\Debug\net6.0\Whyne.API.csproj.AssemblyReference.cache
-C:\Dev\whyne\api\obj\Debug\net6.0\Whyne.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Dev\whyne\api\obj\Debug\net6.0\Whyne.API.AssemblyInfoInputs.cache
-C:\Dev\whyne\api\obj\Debug\net6.0\Whyne.API.AssemblyInfo.cs
-C:\Dev\whyne\api\obj\Debug\net6.0\Whyne.API.csproj.CoreCompileInputs.cache
-C:\Dev\whyne\api\obj\Debug\net6.0\Whyne.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Dev\whyne\api\obj\Debug\net6.0\Whyne.API.MvcApplicationPartsAssemblyInfo.cache

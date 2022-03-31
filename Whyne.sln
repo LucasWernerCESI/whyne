@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.API", "api\Whyne.API.csproj", "{FAD8FCAD-8F3F-4122-82AA-8E4AA8E23151}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.App", "app\Whyne.App.csproj", "{F1023F14-86E6-4559-8314-33C97BC99EDD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.DAL", "Whyne.DAL\Whyne.DAL.csproj", "{74F74F0E-00A6-4D1C-B220-B0210687E104}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.BL", "Whyne.BL\Whyne.BL.csproj", "{49BEE8BE-E9BB-42D8-A0EC-8F37C8AEE10A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.Models", "Whyne.Models\Whyne.Models.csproj", "{73C28E8C-4FB2-418C-AA25-4CB2FA6663FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.API", "Whyne.API\Whyne.API.csproj", "{134C0913-ECAB-47AE-B236-3FB166DB08C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.App", "Whyne.App\Whyne.App.csproj", "{344786AE-3B19-4F12-B0DE-AA5A0EDFD54F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whyne.Utils", "Whyne.Enum\Whyne.Utils.csproj", "{03DB6830-8C93-4724-8D8D-15F90C2735A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FAD8FCAD-8F3F-4122-82AA-8E4AA8E23151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAD8FCAD-8F3F-4122-82AA-8E4AA8E23151}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAD8FCAD-8F3F-4122-82AA-8E4AA8E23151}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAD8FCAD-8F3F-4122-82AA-8E4AA8E23151}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1023F14-86E6-4559-8314-33C97BC99EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1023F14-86E6-4559-8314-33C97BC99EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1023F14-86E6-4559-8314-33C97BC99EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1023F14-86E6-4559-8314-33C97BC99EDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74F74F0E-00A6-4D1C-B220-B0210687E104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74F74F0E-00A6-4D1C-B220-B0210687E104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74F74F0E-00A6-4D1C-B220-B0210687E104}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +33,18 @@ Global
 		{73C28E8C-4FB2-418C-AA25-4CB2FA6663FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C28E8C-4FB2-418C-AA25-4CB2FA6663FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C28E8C-4FB2-418C-AA25-4CB2FA6663FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134C0913-ECAB-47AE-B236-3FB166DB08C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134C0913-ECAB-47AE-B236-3FB166DB08C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134C0913-ECAB-47AE-B236-3FB166DB08C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134C0913-ECAB-47AE-B236-3FB166DB08C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344786AE-3B19-4F12-B0DE-AA5A0EDFD54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344786AE-3B19-4F12-B0DE-AA5A0EDFD54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344786AE-3B19-4F12-B0DE-AA5A0EDFD54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344786AE-3B19-4F12-B0DE-AA5A0EDFD54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DB6830-8C93-4724-8D8D-15F90C2735A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DB6830-8C93-4724-8D8D-15F90C2735A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DB6830-8C93-4724-8D8D-15F90C2735A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DB6830-8C93-4724-8D8D-15F90C2735A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
