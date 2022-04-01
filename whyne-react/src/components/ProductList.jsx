@@ -1,35 +1,80 @@
-export default function Product (Section, ItemList) {
-  const { Item } = ItemList
+export default function Product ( item) {
+  const { ItemId, Icon, Title, Description, DegreeAlcoolo, Familly, Quantity, Provider, Price } = item
 
   const Card = []
 
   let Button
-  if (Item.Quantity > 0) {
-    Button = <button onClick={() => Card((id) => id.concat({ Item }))}>Ajouter</button>
+  if (Quantity > 0) {
+    Button = <button onClick={() => Card((id) => id.concat({ ItemId }))}>Ajouter</button>
   } else {
-    Button = <button disabled data-item-id={Item.ItemId}>Ajouter</button>
+    Button = <button disabled data-item-id={ItemId}>Ajouter</button>
   }
 
-  return (
-    <><h2>{Section}</h2>
-      <div class='grid-container'>
-        <div class='grid-item'>
+  let S
+  const Sc = { Familly }
+
+  if (Sc !== S) {
+    S = Sc
+    return (
+      <>
+        <section id={Familly}>
+          <h1>{Familly}</h1>
           <img
-            src={Item.Icon}
-            alt={`Image of ${Item.Title}`}
+            src={Icon}
+            alt={`Image of ${Title}`}
             className='image-product'
           />
-          <h4>{Item.Title}</h4>
+          <h4>{Title}</h4>
           <p>
-            Descriptif : {Item.Description}<br />
-            Producteur : {Item.Provider} ; ° : {Item.DegreeAlcoolo}<br />
+            Descriptif : {Description}<br />
+            Producteur : {Provider} ; ° : {DegreeAlcoolo}<br />
             <br />
-            Prix: {Item.Price}<br />
+            Prix: {Price}<br />
             <br />
             {Button}
           </p>
-        </div>
-      </div>
-    </>
-  )
+        </section>
+      </>
+    )
+  } else {
+    return (
+      <><img
+        src={Icon}
+        alt={`Image of ${Title}`}
+        className='image-product'
+        />
+        <h4>{Title}</h4>
+        <p>
+          Descriptif : {Description}<br />
+          Producteur : {Provider} ; ° : {DegreeAlcoolo}<br />
+          <br />
+          Prix: {Price}<br />
+          <br />
+          {Button}
+        </p>
+      </>
+    )
+  }
+
+  // return (
+  //   <>
+  //     <section id={section}>
+  //       <h1>{Familly}</h1>
+  //       <img
+  //         src={Icon}
+  //         alt={`Image of ${Title}`}
+  //         className='image-product'
+  //       />
+  //       <h4>{Title}</h4>
+  //       <p>
+  //         Descriptif : {Description}<br />
+  //         Producteur : {Provider} ; ° : {DegreeAlcoolo}<br />
+  //         <br />
+  //         Prix: {Price}<br />
+  //         <br />
+  //         {Button}
+  //       </p>
+  //     </section>
+  //   </>
+  // )
 };
