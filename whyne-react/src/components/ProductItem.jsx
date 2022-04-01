@@ -11,10 +11,11 @@ export default function Product (item) {
   }
 
   return (
-    <><img
-      src={Icon}
-      alt={`Image of ${Title}`}
-      className='image-product'
+    <>
+      <img
+        src={Icon}
+        alt={`Image of ${Title}`}
+        className='image-product'
       />
       <h4>{Title}</h4>
       <p>

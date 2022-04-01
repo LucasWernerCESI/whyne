@@ -1,4 +1,4 @@
-export default function Product ( item) {
+export default function Product (item) {
   const { ItemId, Icon, Title, Description, DegreeAlcoolo, Familly, Quantity, Provider, Price } = item
 
   const Card = []
@@ -55,26 +55,4 @@ export default function Product ( item) {
       </>
     )
   }
-
-  // return (
-  //   <>
-  //     <section id={section}>
-  //       <h1>{Familly}</h1>
-  //       <img
-  //         src={Icon}
-  //         alt={`Image of ${Title}`}
-  //         className='image-product'
-  //       />
-  //       <h4>{Title}</h4>
-  //       <p>
-  //         Descriptif : {Description}<br />
-  //         Producteur : {Provider} ; ° : {DegreeAlcoolo}<br />
-  //         <br />
-  //         Prix: {Price}<br />
-  //         <br />
-  //         {Button}
-  //       </p>
-  //     </section>
-  //   </>
-  // )
 };
