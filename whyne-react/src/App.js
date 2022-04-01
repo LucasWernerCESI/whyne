@@ -1,23 +1,24 @@
-import "./index.css"
-import "./App.css"
-import products from "./assets/products.json"
-import Product from "./components/Product";
+import './App.css'
+import ProductItem from './components/ProductItem'
+import ProductList from './components/ProductList'
 
-export default function App() {
+function App () {
+  const ListeVin = [{ Id: '1', Icon: '', Title: 'pinot noir', Decription: 'un pinot noir test', DegreeAlcoolo: '', Familly: 'Pinot', Quantity: '30', Provider: 'maison', Price: '19.95' }, { Id: '2', Icon: '', Title: 'vin rouge', Descirption: 'no desc', DegreeAlcoolo: '', Familly: 'Vin', Quantity: '0', Provider: 'no provider', Price: '15' }]
+  const MultiListeVin = [{ Section: 'Vins', Liste: ListeVin }, { Section: 'Vins-Petillants', Liste: [{ Id: '1', Icon: '', Title: 'pinot noir', Decription: 'un pinot noir test', DegreeAlcoolo: '', Familly: 'Pinot', Quantity: '30', Provider: 'maison', Price: '19.95' }] }]
   return (
-      <div className={"container"}>
-        <main className={"main"}>
-          <div className={"grid"}>
-            {
-              products.map((product, i) => <Product {...product} key={i}/>)
-            }
-          </div>
-        </main>
-        <div
-            id="snipcart"
-            data-api-key="ZjhiNjhlYzYtZDcxYy00MGIyLWJkOGUtOTc5OTViZmQ0OTc3NjM3ODMxOTE0MTE1NDMwNjY4" hidden
-        >
+    <>
+      <div class='grid-container'>
+        <div class='grid-item'>
+          {ListeVin.map((product, i) => <ProductItem {...product} key={i} />)}
         </div>
       </div>
-  );
+      {/* <div class='grid-container'>
+        <div class='grid-item'>
+          {MultiListeVin.map((section, product, i) => <ProductList section {...product} key={i} />)}
+        </div>
+      </div> */}
+    </>
+  )
 }
+
+export default App
