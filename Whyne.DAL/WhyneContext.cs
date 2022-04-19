@@ -25,7 +25,7 @@ namespace Whyne.DAL
         public DbSet<SupplierOrder> SupplierOrders { get; set; }
 
         // Configuration
-        private readonly string _dbPath = @"Server=localhost;Port=61243;Database=Whyne;Uid=WhyneAdmin;Pwd=123456";
+        private readonly string _dbPath = @"Server=localhost;Port=3306;Database=Whyne;Uid=root;Pwd=123456";
         public MariaDbServerVersion DbServerVersion { get; private set; }
 
         public WhyneContext() : base()

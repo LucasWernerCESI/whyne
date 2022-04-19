@@ -48,7 +48,7 @@ namespace Whyne.App
             }
         }
 
-        public async void LogIn(Credentials credentials)
+        public async void LogIn(Credentials credentials) //si problème vérifier le port dans _apiClient
         {
             _user = await _apiClient.Login(credentials);
             if (_user != null)

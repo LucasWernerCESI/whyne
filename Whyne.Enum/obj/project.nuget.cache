@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vSQg/KhPTN8nWC8h8Msm87cJHvkpAmVqvLQT/yM7tWjgdy7fkg6cI4344j9mUrnEQWOBtm65TCBfMlnSplrhYA==",
+  "dgSpecHash": "E2LUqanv2EBIjPX05St39WcNm6l36MRnaToHu5+AI5w09iX8B/QPQ0REWxVITSQvfSylf0tN7+AHCSPzqxQO0g==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\whyne\\Whyne.Enum\\Whyne.Utils.csproj",
+  "projectFilePath": "C:\\whyne\\Whyne.Enum\\Whyne.Utils.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

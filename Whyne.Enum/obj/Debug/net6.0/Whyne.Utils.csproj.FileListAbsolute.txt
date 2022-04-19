@@ -10,3 +10,15 @@ C:\Dev\whyne\Whyne.Enum\obj\Debug\net6.0\Whyne.Utils.dll
 C:\Dev\whyne\Whyne.Enum\obj\Debug\net6.0\refint\Whyne.Utils.dll
 C:\Dev\whyne\Whyne.Enum\obj\Debug\net6.0\Whyne.Utils.pdb
 C:\Dev\whyne\Whyne.Enum\obj\Debug\net6.0\ref\Whyne.Utils.dll
+C:\whyne\Whyne.Enum\bin\Debug\net6.0\Whyne.Utils.deps.json
+C:\whyne\Whyne.Enum\bin\Debug\net6.0\Whyne.Utils.dll
+C:\whyne\Whyne.Enum\bin\Debug\net6.0\Whyne.Utils.pdb
+C:\whyne\Whyne.Enum\obj\Debug\net6.0\Whyne.Utils.csproj.AssemblyReference.cache
+C:\whyne\Whyne.Enum\obj\Debug\net6.0\Whyne.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\whyne\Whyne.Enum\obj\Debug\net6.0\Whyne.Utils.AssemblyInfoInputs.cache
+C:\whyne\Whyne.Enum\obj\Debug\net6.0\Whyne.Utils.AssemblyInfo.cs
+C:\whyne\Whyne.Enum\obj\Debug\net6.0\Whyne.Utils.csproj.CoreCompileInputs.cache
+C:\whyne\Whyne.Enum\obj\Debug\net6.0\Whyne.Utils.dll
+C:\whyne\Whyne.Enum\obj\Debug\net6.0\refint\Whyne.Utils.dll
+C:\whyne\Whyne.Enum\obj\Debug\net6.0\Whyne.Utils.pdb
+C:\whyne\Whyne.Enum\obj\Debug\net6.0\ref\Whyne.Utils.dll
