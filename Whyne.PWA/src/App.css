@@ -93,13 +93,15 @@ nav ul li a:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown i{
+.fas{
+  color:#141421;
   display: inline-block;
   line-height: 1;
-  font-size: 32px;
+  font-size: 40px;
   text-align: center;
   vertical-align: center;
   margin-top: 20px;
+  margin-right: 20px;
 }
 
 /* body */
