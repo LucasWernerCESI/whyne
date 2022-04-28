@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6vPsOrvJJTrH5ty1XBYrlHVMZjlD1MAocTMr/l4uIBqo0i6nR+IMfKmWdB2zeqm+Y3aZFZYbTAD2ZCuWUtefSA==",
+  "dgSpecHash": "HrdI5MbtrYzs05pWX8+2WMp+uu00TkjKURFap70oJq0xDrU3wW18LNCh0OgpDVxepeWC3JORND+pTf59L6cnWw==",
   "success": true,
   "projectFilePath": "C:\\whyne\\Whyne.Models\\Whyne.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ombri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\gab\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

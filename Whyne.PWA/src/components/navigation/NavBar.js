@@ -1,8 +1,10 @@
-export default function Product ({section}) {
+import { Link, animateScroll as scroll } from 'react-scroll'
 
-  const ST = "#"+section.Section
-
+export default function NavBar ({ section }) {
+  console.log(section)
+  const ST = '#' + section.Section
+  console.log(ST)
   return (
-      <li><a href={ST} >{section.Section}</a></li>
+    <li><a href={ST}>{section.Section}</a></li>
   )
 };

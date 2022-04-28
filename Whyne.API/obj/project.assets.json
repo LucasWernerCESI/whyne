@@ -1108,7 +1108,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ombri\\.nuget\\packages\\": {},
+    "C:\\Users\\gab\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -1117,14 +1117,14 @@
       "projectUniqueName": "C:\\whyne\\Whyne.API\\Whyne.API.csproj",
       "projectName": "Whyne.API",
       "projectPath": "C:\\whyne\\Whyne.API\\Whyne.API.csproj",
-      "packagesPath": "C:\\Users\\ombri\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\gab\\.nuget\\packages\\",
       "outputPath": "C:\\whyne\\Whyne.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ombri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gab\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1178,7 +1178,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
