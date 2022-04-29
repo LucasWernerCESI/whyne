@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+// import fetch from 'node-fetch'
 
 export default function Login () {
   const [email, setEmail] = useState()
@@ -11,6 +12,15 @@ export default function Login () {
     console.log(password)
     // change it later;
   }
+
+  // const login = async (e) => {
+  //   e.preventDefault()
+  //   await post('https://localhost:44373/api/Auth/Login', { email, password })
+  // }
+
+  const login = fetch('https://localhost:44373/api/Auth/Login', { email, password })
+    .then(response => response.json())
+    .then(data => console.log(data))
 
   return (
     <div>
@@ -25,7 +35,7 @@ export default function Login () {
           <label>Mot de passe</label>
           <input type='password' name='password' onChange={e => { setPassword(e.target.value) }} />
           <br /><br />
-          <input type='submit' value='submit' />
+          <input type='submit' value='submit' onclick={login} />
         </form>
       </div>
     </div>

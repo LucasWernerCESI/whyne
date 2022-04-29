@@ -9,7 +9,7 @@ export default function CartItem (item) {
   return (
 
     <div>
-      <p>{Title} {Price} <button>Supprimer</button></p>
+      <p>{Title} {Price} <button data-item-id={ItemId}>Supprimer</button></p>
     </div>
   )
 };

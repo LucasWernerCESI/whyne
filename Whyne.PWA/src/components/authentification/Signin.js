@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+// import fetch from 'node-fetch'
 
 export default function Signin () {
   const [username, setUsername] = useState()
@@ -13,6 +14,10 @@ export default function Signin () {
     console.log(password)
     // change it later;
   }
+
+  fetch('https://localhost:44373/api/Auth/Register', { email, password })
+    .then(response => response.json())
+    .then(data => console.log(data))
 
   return (
     <div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import NavBar from './NavBar'
-import MultiListeVin from '../home'
+import { MultiListeVin, GetWines } from '../home'
 
 const connected = false
 
@@ -19,6 +19,10 @@ export default function Header () {
               <div className='col-md-8'>
                 <nav>
                   <ul>
+                    <li><a href='#Vins'>Vins</a></li>
+                    <li><a href='#Vins Pétillants'>Vins Pétillants</a></li>
+                    <li><a href='#Bières'>Bières Artisanales</a></li>
+                    <li><a href='#Vins'>Autre</a></li>
                     {/* {MultiListeVin.map((product) => <NavBar section={product} />)} */}
                   </ul>
                 </nav>

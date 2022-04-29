@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\whyne\\Whyne.App\\Whyne.App.csproj",
+      "projectUniqueName": "C:\\whyne - react\\Whyne.App\\Whyne.App.csproj",
       "projectName": "Whyne.App",
-      "projectPath": "C:\\whyne\\Whyne.App\\Whyne.App.csproj",
+      "projectPath": "C:\\whyne - react\\Whyne.App\\Whyne.App.csproj",
       "packagesPath": "C:\\Users\\gab\\.nuget\\packages\\",
-      "outputPath": "C:\\whyne\\Whyne.App\\obj\\",
+      "outputPath": "C:\\whyne - react\\Whyne.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\whyne\\Whyne.Models\\Whyne.Models.csproj": {
-              "projectPath": "C:\\whyne\\Whyne.Models\\Whyne.Models.csproj"
+            "C:\\whyne - react\\Whyne.Models\\Whyne.Models.csproj": {
+              "projectPath": "C:\\whyne - react\\Whyne.Models\\Whyne.Models.csproj"
             }
           }
         }

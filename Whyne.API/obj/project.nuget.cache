@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9H4l7ww50KLrbZeWQP0P6TLFB+hYAjdaRpZn9aiENJbv6S+uyRmeYMwiS9F0IYW1uAxiy6mCPlzU5IhuDVEq5Q==",
+  "dgSpecHash": "WQoWtyO32sPApibRwG7NqrTL6G0Ix64cGXCzxjnZMkMOAB8VV5t0JQk3F9vequRxGWeQo+SasxNgrIv9DXZXgw==",
   "success": true,
-  "projectFilePath": "C:\\whyne\\Whyne.API\\Whyne.API.csproj",
+  "projectFilePath": "C:\\whyne - react\\Whyne.API\\Whyne.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gab\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.3\\microsoft.aspnetcore.cryptography.internal.6.0.3.nupkg.sha512",
     "C:\\Users\\gab\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.3\\microsoft.aspnetcore.cryptography.keyderivation.6.0.3.nupkg.sha512",

@@ -89,3 +89,37 @@ C:\whyne\Whyne.App\obj\Debug\net6.0-windows\refint\Whyne.App.dll
 C:\whyne\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.pdb
 C:\whyne\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.genruntimeconfig.cache
 C:\whyne\Whyne.App\obj\Debug\net6.0-windows\ref\Whyne.App.dll
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Whyne.App.exe
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Whyne.App.deps.json
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Whyne.App.runtimeconfig.json
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Whyne.App.dll
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Whyne.App.pdb
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Whyne.Models.dll
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Whyne.Utils.dll
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Whyne.Models.pdb
+C:\whyne - react\Whyne.App\bin\Debug\net6.0-windows\Whyne.Utils.pdb
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.csproj.AssemblyReference.cache
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.Account.LoginControl.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.Common.ContentControl.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.Common.HeaderControl.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.Common.Items.HeaderItem.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.Common.Items.SideNavItem.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.Common.UserSideNavControl.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.HomeControl.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.People.SupplierControl.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.People.PeopleControl.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Controls.People.PeopleSideNavControl.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.MainForm.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.Properties.Resources.resources
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.csproj.GenerateResource.cache
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.AssemblyInfoInputs.cache
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.AssemblyInfo.cs
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.csproj.CoreCompileInputs.cache
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.csproj.CopyComplete
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.dll
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\refint\Whyne.App.dll
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.pdb
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\Whyne.App.genruntimeconfig.cache
+C:\whyne - react\Whyne.App\obj\Debug\net6.0-windows\ref\Whyne.App.dll

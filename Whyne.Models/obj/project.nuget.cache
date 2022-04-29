@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HrdI5MbtrYzs05pWX8+2WMp+uu00TkjKURFap70oJq0xDrU3wW18LNCh0OgpDVxepeWC3JORND+pTf59L6cnWw==",
+  "dgSpecHash": "XIPEsT5at/VBP7yq/kAeSk3+B2yqvJ2LB3IjFj0Y4EZ1nc+AzqTIXLCtPmeV9VyxK3atgukjA6ga4Sp35PEZVA==",
   "success": true,
-  "projectFilePath": "C:\\whyne\\Whyne.Models\\Whyne.Models.csproj",
+  "projectFilePath": "C:\\whyne - react\\Whyne.Models\\Whyne.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gab\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

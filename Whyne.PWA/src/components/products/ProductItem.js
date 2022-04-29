@@ -10,6 +10,9 @@ export default function ProductItem (item) {
   } else {
     Button = <button disabled data-item-id={ItemId}>Précommander</button>
   }
+  console.log(
+    Description
+  )
 
   return (
 
@@ -21,10 +24,11 @@ export default function ProductItem (item) {
       />
       <h4>{Title}</h4>
       <p>
-        Descriptif: {Description}<br />
-        Producteur: {Provider} ; Degré d'Alcool: {DegreeAlcoolo}<br />
+        {Description}<br />
+        Degré d'Alcool: {DegreeAlcoolo} <br />
+        Producteur: {Provider} <br />
         <br />
-        Prix: {Price}<br />
+        Prix: {Price}€<br />
         <br />
         {Button}
       </p>
