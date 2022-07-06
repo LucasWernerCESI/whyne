@@ -25,7 +25,7 @@ namespace Whyne.DAL
         public DbSet<SupplierOrder> SupplierOrders { get; set; }
 
         // Configuration
-        private readonly string _dbPath = @"Server=localhost;Port=61243;Database=Whyne;Uid=WhyneAdmin;Pwd=123456";
+        private readonly string _dbPath = @"Server=localhost;Port=59170;Database=Whyne;Uid=WhyneAdmin;Pwd=123456";
         public MariaDbServerVersion DbServerVersion { get; private set; }
 
         public WhyneContext() : base()
@@ -35,5 +35,14 @@ namespace Whyne.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseMySql(_dbPath, DbServerVersion);
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Customer>()
+                .HasMany(c => c.Adresses)
+                .WithOne(a => a.Customer)
+                .OnDelete(DeleteBehavior.ClientCascade);
+        }
     }
 }

@@ -1,16 +1,10 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Whyne.BL;
 using Whyne.DAL;
@@ -65,14 +59,14 @@ namespace Whyne.API
                 .AddDefaultTokenProviders();
 
             // Doc Generator
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Whyne API", Version = "v1" });
-            });
+            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Whyne API", Version = "v1"}); });
 
             // Custom Services for constructor injection
             services.AddTransient<WineService>();
             services.AddTransient<SupplierService>();
+            services.AddTransient<DistributorService>();
+            services.AddTransient<CustomerService>();
+            services.AddTransient<AdressService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -93,12 +87,10 @@ namespace Whyne.API
 
             app.UseAuthentication();
 
-            app.UseCors( x => x.SetIsOriginAllowed( origins => true ).AllowAnyMethod().AllowAnyHeader().AllowCredentials() );
+            app.UseCors(x =>
+                x.SetIsOriginAllowed(origins => true).AllowAnyMethod().AllowAnyHeader().AllowCredentials());
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
 }

@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Whyne.DAL;
 
@@ -10,9 +11,10 @@ using Whyne.DAL;
 namespace Whyne.DAL.Migrations
 {
     [DbContext(typeof(WhyneContext))]
-    partial class WhyneContextModelSnapshot : ModelSnapshot
+    [Migration("20220401084758_Edit-Adresses")]
+    partial class EditAdresses
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
